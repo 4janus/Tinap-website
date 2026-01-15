@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="TINAP - Transdisciplinary Innovation Network Against Prostate Cancer. Vi udfordrer den etablerede teori om kræft med ny forskning om kroppens reparationssystem.">
+  <meta name="keywords" content="TINAP, prostatakræft, kræftforskning, RCA, systembiologi, kræft">
+  <title>TINAP - En ny forståelse af kræft</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">TINAP</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" data-i18n="nav_home">Hjem</a></li>
+        <li><a href="#simple" data-i18n="nav_about">Om os</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+        <li><a href="funding.html" data-i18n="nav_funding">Støt os</a></li>
+
+        <!-- Language Switcher -->
+        <li class="lang-switcher">
+          <button class="lang-btn">
+            <span class="lang-btn-text">DA</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+              <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="lang-dropdown">
+            <button class="lang-option" data-lang="da">🇩🇰 Dansk</button>
+            <button class="lang-option" data-lang="en">🇬🇧 English</button>
+            <button class="lang-option" data-lang="zh">🇨🇳 中文</button>
+          </div>
+        </li>
+      </ul>
+
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle" data-i18n="hero_subtitle">Tværfagligt Innovationsnetværk mod Prostatakræft</p>
+      <h1 class="hero-title" data-i18n="hero_title">En ny forståelse af <span>kræft</span></h1>
+      <p class="hero-description" data-i18n="hero_description">
+        Vi udfordrer den etablerede teori om kræft. Vores forskning viser, at kræft ikke blot skyldes tilfældige
+        genmutationer – det er et sammenbrud i kroppens naturlige reparationssystem.
+      </p>
+      <div class="hero-actions">
+        <a href="#simple" class="btn btn-primary" data-i18n="hero_btn_learn">Læs mere</a>
+        <a href="funding.html" class="btn btn-outline" data-i18n="hero_btn_support">Bliv støtte</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simple Explanation Section -->
+  <section id="simple" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="simple_title">Kræft på en ny måde</h2>
+
+      <div class="card-grid">
+        <div class="card reveal">
+          <div class="card-icon">🧬</div>
+          <h3 class="card-title" data-i18n="simple_card1_title">Den gamle teori</h3>
+          <p class="card-text" data-i18n="simple_card1_text">
+            Den traditionelle opfattelse er, at kræft skyldes tilfældige genetiske fejl, der akkumuleres over tid. Men
+            matematisk set kræver dette tusinder af år – ikke et menneskeliv.
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">🔬</div>
+          <h3 class="card-title" data-i18n="simple_card2_title">Vores opdagelse</h3>
+          <p class="card-text" data-i18n="simple_card2_text">
+            Kræft opstår, når vævsmiljøet omkring cellerne nedbrydes. Cellerne mister deres 'vejledning' og ved ikke
+            længere, hvornår de skal stoppe med at dele sig.
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-icon">💡</div>
+          <h3 class="card-title" data-i18n="simple_card3_title">Hvad det betyder</h3>
+          <p class="card-text" data-i18n="simple_card3_text">
+            I stedet for kun at angribe kræftcellerne, bør vi også fokusere på at genoprette det sunde vævsmiljø – det
+            kan være nøglen til bedre behandling og forebyggelse.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dive Deeper Section -->
+  <section id="dive-deeper" class="section" style="background: var(--color-bg-medium);">
+    <div class="container">
+      <h2 class="section-title" data-i18n="dive_title">Dyk dybere ned i videnskaben</h2>
+
+      <div class="accordion">
+        <div class="accordion-item reveal">
+          <button class="accordion-header">
+            <span data-i18n="dive_item1_title">Den Somatiske Mutationsteori (SMT) og dens begrænsninger</span>
+            <span class="accordion-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="dive_item1_text">
+              SMT har været det dominerende paradigme i kræftforskning i årtier. Teorien hævder, at kræft starter med
+              tilfældige mutationer i DNA'et. Men vores kvantitative analyse viser, at den tid, det statistisk ville
+              tage at akkumulere de nødvendige 5-7 driver-mutationer, langt overstiger et menneskes levetid. For
+              progenitorceller ville det kræve op til 10.000 år – en biologisk umulighed.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item reveal">
+          <button class="accordion-header">
+            <span data-i18n="dive_item2_title">RCA-rammeværket: Reparation og Kapacitetstilpasning</span>
+            <span class="accordion-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="dive_item2_text">
+              Vores Repair and Capacity Adaptation (RCA) rammeværk tilbyder en systembiologisk forklaring. Kræft opstår,
+              når den bindevævsmatrix (kaldet Reticular Lamina), der omgiver stamceller og progenitorceller, nedbrydes.
+              Denne matrix sender normalt differentieringssignaler, der fortæller cellerne, hvornår de skal modne og
+              stoppe med at dele sig. Når disse signaler forsvinder, bliver cellerne 'fanget' i en proliferativ
+              tilstand.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item reveal">
+          <button class="accordion-header">
+            <span data-i18n="dive_item3_title">Mutationsparadokset</span>
+            <span class="accordion-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="dive_item3_text">
+              SMT antager, at mutationer giver celler evnen til at dele sig ukontrolleret. Men stamceller og
+              progenitorceller deler sig allerede naturligt! Det er deres job. Det, kræft repræsenterer, er ikke en ny
+              evne til at dele sig, men et tab af den eksterne kontrol, der normalt stopper delingen. SMT forveksler tab
+              af kontrol med gain of function.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item reveal">
+          <button class="accordion-header">
+            <span data-i18n="dive_item4_title">Eksperimentel evidens</span>
+            <span class="accordion-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="dive_item4_text">
+              Talrige studier viser, at kræftceller kan normaliseres, når de placeres i et sundt vævsmiljø. Omvendt kan
+              normale celler udvikle maligne egenskaber i et nedbrudt miljø – uden genetiske ændringer. Dette bekræfter,
+              at det er konteksten, ikke genomet, der bestemmer cellernes opførsel.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item reveal">
+          <button class="accordion-header">
+            <span data-i18n="dive_item5_title">Implikationer for behandling</span>
+            <span class="accordion-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="dive_item5_text">
+              RCA-rammeværket peger mod en ny terapeutisk tilgang: regenerativ onkologi. I stedet for kun at dræbe
+              kræftceller med kemoterapi eller stråling, bør vi også genoprette vævsmiljøets integritet. Dette kunne
+              inkludere mekanoterapeutiske interventioner, modulation af fibroblastfunktion, og strategier til at
+              understøtte den naturlige differentiering.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Publication Links -->
+      <div class="text-center mt-lg reveal">
+        <p style="color: var(--color-text-secondary); margin-bottom: var(--spacing-md);">
+          Læs vores publicerede forskningsartikler:
+        </p>
+        <div class="hero-actions">
+          <a href="https://doi.org/10.1101/2025.10.17.683033" target="_blank" class="btn btn-outline">
+            📄 Part I (bioRxiv)
+          </a>
+          <a href="https://doi.org/10.5281/zenodo.17495974" target="_blank" class="btn btn-outline">
+            📄 Part II (Zenodo)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter" class="section">
+    <div class="container">
+      <div class="newsletter reveal">
+        <h2 data-i18n="newsletter_title">Bliv en del af forandringen</h2>
+        <p data-i18n="newsletter_text">
+          Tilmeld dig vores nyhedsbrev og modtag opdateringer om vores forskning, nye publikationer og muligheder for at
+          støtte arbejdet.
+        </p>
+        <form class="newsletter-form">
+          <input type="email" class="form-input" data-i18n="newsletter_placeholder" placeholder="Din e-mail adresse"
+            required>
+          <button type="submit" class="btn btn-primary" data-i18n="newsletter_btn">Tilmeld</button>
+        </form>
+        <div class="newsletter-success" data-i18n="newsletter_success">
+          Tak for din tilmelding! Du vil snart modtage en bekræftelse.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="section"
+    style="background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg-medium) 100%);">
+    <div class="container text-center">
+      <h2 class="reveal">Hjælp os med at udbrede budskabet</h2>
+      <p class="reveal" style="max-width: 600px; margin: 0 auto var(--spacing-md); color: var(--color-text-secondary);">
+        Vi søger kontakt til forskningsinstitutioner, fonde og enkeltpersoner, der vil støtte en ny tilgang til
+        kræftforskning.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="funding.html" class="btn btn-primary">Støt vores forskning</a>
+        <a href="contact.html" class="btn btn-outline">Kontakt os</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">TINAP</h3>
+          <p data-i18n="footer_about_text"
+            style="color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.7;">
+            TINAP er en tværfaglig forening dedikeret til at udfordre etablerede teorier om kræftens oprindelse og
+            fremme ny forskning.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_links">Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav_home">Hjem</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+            <li><a href="funding.html" data-i18n="nav_funding">Støt os</a></li>
+            <li><a href="https://tinap.org" target="_blank">tinap.org</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_contact">Kontakt</h4>
+          <ul class="footer-links">
+            <li>Skovbovænget 141</li>
+            <li>2750 Ballerup</li>
+            <li>+45 42 66 62 57</li>
+            <li><a href="mailto:kontakt@tinap.org">kontakt@tinap.org</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_copyright">© 2026 TINAP. Alle rettigheder forbeholdt.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="tinap.js"></script>
+</body>
+
+</html>

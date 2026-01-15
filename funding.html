@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Støt TINAPs forskning i en ny forståelse af kræft. Vi søger støtte fra fonde, institutioner og enkeltpersoner.">
+    <title>Støt os - TINAP</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">TINAP</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Hjem</a></li>
+                <li><a href="index.html#simple" data-i18n="nav_about">Om os</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+                <li><a href="funding.html" class="active" data-i18n="nav_funding">Støt os</a></li>
+
+                <!-- Language Switcher -->
+                <li class="lang-switcher">
+                    <button class="lang-btn">
+                        <span class="lang-btn-text">DA</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                            <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="da">🇩🇰 Dansk</button>
+                        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang="zh">🇨🇳 中文</button>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="section"
+        style="padding-top: 120px; background: linear-gradient(135deg, var(--color-bg-dark) 0%, var(--color-bg-medium) 100%);">
+        <div class="container text-center">
+            <h1 class="reveal" data-i18n="funding_title">Støt vores forskning</h1>
+            <p class="reveal" style="max-width: 700px; margin: 0 auto; color: var(--color-text-secondary);"
+                data-i18n="funding_intro">
+                TINAP er en non-profit forening, der arbejder for at fremme ny forståelse af kræftens oprindelse. Vi
+                søger støtte fra fonde, institutioner og private til at fortsætte og udvide vores arbejde.
+            </p>
+        </div>
+    </section>
+
+    <!-- Funding Letter Section -->
+    <section class="section">
+        <div class="container">
+            <div class="funding-letter reveal">
+                <h2 data-i18n="funding_letter_title" style="margin-bottom: var(--spacing-md);">Ansøgning om støtte</h2>
+
+                <p data-i18n="funding_letter_greeting"><strong>Kære potentielle støtte,</strong></p>
+
+                <p data-i18n="funding_letter_p1">
+                    I årtier har den Somatiske Mutationsteori (SMT) domineret kræftforskningen med sin påstand om, at
+                    kræft skyldes tilfældige genetiske mutationer. På trods af enorme investeringer har dette paradigme
+                    ikke leveret de gennembrud i forebyggelse og behandling, vi havde håbet på.
+                </p>
+
+                <p data-i18n="funding_letter_p2">
+                    TINAP – Transdisciplinary Innovation Network Against Prostate cancer – har udviklet et alternativt
+                    rammeværk kaldet RCA (Repair and Capacity Adaptation), der forklarer kræft som en systemisk fejl
+                    snarere end en cellulær mutation. Vores forskningsartikler er publiceret på bioRxiv og Zenodo og har
+                    allerede modtaget international opmærksomhed.
+                </p>
+
+                <div class="funding-highlight">
+                    <p data-i18n="funding_highlight">
+                        "Vi har ikke spildt tiden med at finde komponenterne, men vi har måske fejlet ved at tro, at vi
+                        kunne kontrollere dem som tandhjul. Virkeligheden er, at vi forsøger at styre en proces, der er
+                        klogere end os selv."
+                    </p>
+                </div>
+
+                <p data-i18n="funding_letter_p3"><strong>Vi søger støtte til at:</strong></p>
+
+                <ul
+                    style="margin: var(--spacing-sm) 0 var(--spacing-md) var(--spacing-md); color: var(--color-text-secondary);">
+                    <li style="margin-bottom: var(--spacing-xs);" data-i18n="funding_letter_list1">
+                        Udføre eksperimentel validering af RCA-rammeværket
+                    </li>
+                    <li style="margin-bottom: var(--spacing-xs);" data-i18n="funding_letter_list2">
+                        Arrangere internationale symposier og konferencer
+                    </li>
+                    <li style="margin-bottom: var(--spacing-xs);" data-i18n="funding_letter_list3">
+                        Oversætte og formidle vores forskning til et bredere publikum
+                    </li>
+                    <li data-i18n="funding_letter_list4">
+                        Etablere samarbejder med universiteter og forskningsinstitutioner
+                    </li>
+                </ul>
+
+                <p data-i18n="funding_letter_p4">
+                    Enhver støtte – stor som lille – bringer os tættere på en ny forståelse af kræft og potentielt nye
+                    behandlingsformer.
+                </p>
+
+                <p style="margin-top: var(--spacing-lg);">
+                    <span data-i18n="funding_letter_closing">Med venlig hilsen,</span><br>
+                    <strong data-i18n="funding_letter_signature">TINAP Bestyrelsen</strong>
+                </p>
+            </div>
+
+            <!-- Research Value -->
+            <div class="card-grid" style="margin-top: var(--spacing-lg);">
+                <div class="card reveal">
+                    <div class="card-icon">🔬</div>
+                    <h3 class="card-title">Banebrydende forskning</h3>
+                    <p class="card-text">
+                        Vores RCA-rammeværk udfordrer 50 års dominerende teori og åbner for nye behandlingsmuligheder
+                        baseret på regenerativ medicin.
+                    </p>
+                </div>
+
+                <div class="card reveal">
+                    <div class="card-icon">🌍</div>
+                    <h3 class="card-title">International anerkendelse</h3>
+                    <p class="card-text">
+                        Vores publikationer på bioRxiv og Zenodo har allerede tiltrukket opmærksomhed fra forskere
+                        verden over.
+                    </p>
+                </div>
+
+                <div class="card reveal">
+                    <div class="card-icon">🤝</div>
+                    <h3 class="card-title">Tværfagligt samarbejde</h3>
+                    <p class="card-text">
+                        Vi samler eksperter fra biologi, medicin, fysik og kompleksitetsteori for at forstå kræft som et
+                        systemfænomen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Support -->
+    <section class="section" style="background: var(--color-bg-medium);">
+        <div class="container">
+            <h2 class="section-title reveal">Sådan kan du støtte</h2>
+
+            <div class="card-grid">
+                <div class="card reveal">
+                    <div class="card-icon">💰</div>
+                    <h3 class="card-title">Økonomisk støtte</h3>
+                    <p class="card-text">
+                        Donationer af enhver størrelse hjælper os med at fortsætte vores forskning og formidling.
+                    </p>
+                    <p style="margin-top: var(--spacing-sm); font-size: 0.9rem;">
+                        <strong>Bankkonto:</strong> Kontakt os for bankoplysninger<br>
+                        <strong>CVR:</strong> 42144738
+                    </p>
+                </div>
+
+                <div class="card reveal">
+                    <div class="card-icon">📢</div>
+                    <h3 class="card-title">Del vores budskab</h3>
+                    <p class="card-text">
+                        Hjælp os med at nå ud til flere ved at dele vores forskning med dit netværk,
+                        forskningsinstitutioner og medier.
+                    </p>
+                    <div style="margin-top: var(--spacing-sm);">
+                        <a href="https://doi.org/10.1101/2025.10.17.683033" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.85rem;">
+                            Del Part I
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card reveal">
+                    <div class="card-icon">🏛️</div>
+                    <h3 class="card-title">Institutionelt samarbejde</h3>
+                    <p class="card-text">
+                        Er du tilknyttet en forskningsinstitution, universitet eller fond? Vi søger samarbejdspartnere
+                        til at validere vores hypoteser.
+                    </p>
+                    <div style="margin-top: var(--spacing-sm);">
+                        <a href="contact.html" class="btn btn-outline" style="font-size: 0.85rem;">
+                            Kontakt os
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="reveal" data-i18n="funding_contact_title">Kontakt os for at diskutere støttemuligheder</h2>
+            <p class="reveal"
+                style="max-width: 500px; margin: 0 auto var(--spacing-md); color: var(--color-text-secondary);">
+                Vi vil gerne høre fra dig og fortælle mere om vores arbejde og hvordan din støtte kan gøre en forskel.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="contact.html" class="btn btn-primary">Kontakt os</a>
+                <a href="mailto:kontakt@tinap.org" class="btn btn-outline">kontakt@tinap.org</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section" style="background: var(--color-bg-medium);">
+        <div class="container">
+            <div class="newsletter reveal">
+                <h2 data-i18n="newsletter_title">Bliv en del af forandringen</h2>
+                <p data-i18n="newsletter_text">
+                    Tilmeld dig vores nyhedsbrev og modtag opdateringer om vores forskning, nye publikationer og
+                    muligheder for at støtte arbejdet.
+                </p>
+                <form class="newsletter-form">
+                    <input type="email" class="form-input" data-i18n="newsletter_placeholder"
+                        placeholder="Din e-mail adresse" required>
+                    <button type="submit" class="btn btn-primary" data-i18n="newsletter_btn">Tilmeld</button>
+                </form>
+                <div class="newsletter-success" data-i18n="newsletter_success">
+                    Tak for din tilmelding! Du vil snart modtage en bekræftelse.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">TINAP</h3>
+                    <p data-i18n="footer_about_text"
+                        style="color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.7;">
+                        TINAP er en tværfaglig forening dedikeret til at udfordre etablerede teorier om kræftens
+                        oprindelse og fremme ny forskning.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title" data-i18n="footer_links">Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav_home">Hjem</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+                        <li><a href="funding.html" data-i18n="nav_funding">Støt os</a></li>
+                        <li><a href="https://tinap.org" target="_blank">tinap.org</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title" data-i18n="footer_contact">Kontakt</h4>
+                    <ul class="footer-links">
+                        <li>Skovbovænget 141</li>
+                        <li>2750 Ballerup</li>
+                        <li>+45 42 66 62 57</li>
+                        <li><a href="mailto:kontakt@tinap.org">kontakt@tinap.org</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">© 2026 TINAP. Alle rettigheder forbeholdt.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="tinap.js"></script>
+</body>
+
+</html>
