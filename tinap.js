@@ -471,7 +471,7 @@ function initForms() {
         const successEl = document.querySelector('.contact-form-success');
 
         try {
-            const response = await fetch('/', {
+            const response = await fetch(contactForm.getAttribute('action') || window.location.pathname, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: new URLSearchParams(formData).toString()
