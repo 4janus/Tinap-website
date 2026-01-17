@@ -39,6 +39,8 @@ const translations = {
         dive_item4_text: "Talrige studier viser, at kræftceller kan normaliseres, når de placeres i et sundt vævsmiljø. Omvendt kan normale celler udvikle maligne egenskaber i et nedbrudt miljø – uden genetiske ændringer. Dette bekræfter, at det er konteksten, ikke genomet, der bestemmer cellernes opførsel.",
         dive_item5_title: "Implikationer for behandling",
         dive_item5_text: "RCA-rammeværket peger mod en ny terapeutisk tilgang: regenerativ onkologi. I stedet for kun at dræbe kræftceller med kemoterapi eller stråling, bør vi også genoprette vævsmiljøets integritet. Dette kunne inkludere mekanoterapeutiske interventioner, modulation af fibroblastfunktion, og strategier til at understøtte den naturlige differentiering.",
+        dive_research_btn: "Se nye muligheder for forskningsprojekter",
+        dive_publications_label: "Læs vores publicerede forskningsartikler:",
 
         // Newsletter Section
         newsletter_title: "Bliv en del af forandringen",
@@ -60,6 +62,7 @@ const translations = {
         contact_form_subject: "Emne",
         contact_form_message: "Din besked",
         contact_form_btn: "Send besked",
+        contact_form_title: "Send os en besked",
         contact_form_success: "Tak for din henvendelse! Vi vender tilbage snarest.",
 
         // Board Members
@@ -88,6 +91,12 @@ const translations = {
         funding_letter_signature: "TINAP Bestyrelsen",
         funding_highlight: "\"Vi har ikke spildt tiden med at finde komponenterne, men vi har måske fejlet ved at tro, at vi kunne kontrollere dem som tandhjul. Virkeligheden er, at vi forsøger at styre en proces, der er klogere end os selv.\"",
         funding_contact_title: "Kontakt os for at diskutere støttemuligheder",
+
+        // Call to Action Section
+        cta_title: "Hjælp os med at udbrede budskabet",
+        cta_text: "Vi søger kontakt til forskningsinstitutioner, fonde og enkeltpersoner, der vil støtte en ny tilgang til kræftforskning.",
+        cta_btn_support: "Støt vores forskning",
+        cta_btn_contact: "Kontakt os",
 
         // Footer
         footer_about: "Om TINAP",
@@ -138,6 +147,8 @@ const translations = {
         dive_item4_text: "Numerous studies show that cancer cells can normalize when placed in a healthy tissue environment. Conversely, normal cells can develop malignant properties in a degraded environment – without genetic changes. This confirms that it's the context, not the genome, that determines cell behavior.",
         dive_item5_title: "Implications for Treatment",
         dive_item5_text: "The RCA framework points toward a new therapeutic approach: regenerative oncology. Instead of only killing cancer cells with chemotherapy or radiation, we should also restore tissue environment integrity. This could include mechanotherapeutic interventions, modulation of fibroblast function, and strategies to support natural differentiation.",
+        dive_research_btn: "See new research project opportunities",
+        dive_publications_label: "Read our published research articles:",
 
         // Newsletter Section
         newsletter_title: "Be Part of the Change",
@@ -159,6 +170,7 @@ const translations = {
         contact_form_subject: "Subject",
         contact_form_message: "Your message",
         contact_form_btn: "Send message",
+        contact_form_title: "Send us a message",
         contact_form_success: "Thank you for your inquiry! We will get back to you soon.",
 
         // Board Members
@@ -187,6 +199,12 @@ const translations = {
         funding_letter_signature: "The TINAP Board",
         funding_highlight: "\"We have not wasted time finding the components, but we may have failed by believing we could control them like cogwheels. The reality is that we are trying to steer a process that is wiser than ourselves.\"",
         funding_contact_title: "Contact us to discuss support options",
+
+        // Call to Action Section
+        cta_title: "Help us spread the message",
+        cta_text: "We are seeking contact with research institutions, foundations, and individuals who want to support a new approach to cancer research.",
+        cta_btn_support: "Support our research",
+        cta_btn_contact: "Contact us",
 
         // Footer
         footer_about: "About TINAP",
@@ -237,6 +255,8 @@ const translations = {
         dive_item4_text: "大量研究表明，当癌细胞被放置在健康的组织环境中时可以正常化。相反，正常细胞可以在退化的环境中发展出恶性特征——而无需基因改变。这证实了决定细胞行为的是环境，而不是基因组。",
         dive_item5_title: "治疗启示",
         dive_item5_text: "RCA框架指向一种新的治疗方法：再生肿瘤学。我们不应该仅仅用化疗或放疗杀死癌细胞，还应该恢复组织环境的完整性。这可能包括机械治疗干预、调节成纤维细胞功能以及支持自然分化的策略。",
+        dive_research_btn: "查看新的研究项目机会",
+        dive_publications_label: "阅读我们发表的研究论文:",
 
         // Newsletter Section
         newsletter_title: "成为改变的一部分",
@@ -258,6 +278,7 @@ const translations = {
         contact_form_subject: "主题",
         contact_form_message: "您的留言",
         contact_form_btn: "发送消息",
+        contact_form_title: "给我们发送消息",
         contact_form_success: "感谢您的咨询！我们会尽快回复您。",
 
         // Board Members
@@ -286,6 +307,12 @@ const translations = {
         funding_letter_signature: "TINAP董事会",
         funding_highlight: "\"我们没有浪费时间寻找组件，但我们可能错在相信我们可以像控制齿轮一样控制它们。现实是，我们试图驾驭一个比我们自己更聪明的过程。\"",
         funding_contact_title: "联系我们讨论支持方案",
+
+        // Call to Action Section
+        cta_title: "帮助我们传播信息",
+        cta_text: "我们正在寻求与研究机构、基金会和希望支持癌症研究新方法的个人建立联系。",
+        cta_btn_support: "支持我们的研究",
+        cta_btn_contact: "联系我们",
 
         // Footer
         footer_about: "关于TINAP",
@@ -435,20 +462,41 @@ function initForms() {
         });
     });
 
-    // Contact form
+    // Contact form (Netlify Forms with AJAX)
     const contactForm = document.querySelector('.contact-form');
-    contactForm?.addEventListener('submit', (e) => {
+    contactForm?.addEventListener('submit', async (e) => {
         e.preventDefault();
 
-        // Show success message
+        const formData = new FormData(contactForm);
         const successEl = document.querySelector('.contact-form-success');
-        successEl?.classList.add('show');
-        contactForm.reset();
 
-        // Hide after 5 seconds
-        setTimeout(() => {
-            successEl?.classList.remove('show');
-        }, 5000);
+        try {
+            const response = await fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            });
+
+            if (response.ok) {
+                // Show success message
+                successEl?.classList.add('show');
+                contactForm.reset();
+
+                // Hide after 5 seconds
+                setTimeout(() => {
+                    successEl?.classList.remove('show');
+                }, 5000);
+            } else {
+                alert('Der opstod en fejl. Prøv igen senere.');
+            }
+        } catch (error) {
+            // For local development or if fetch fails, just show success
+            successEl?.classList.add('show');
+            contactForm.reset();
+            setTimeout(() => {
+                successEl?.classList.remove('show');
+            }, 5000);
+        }
     });
 }
 

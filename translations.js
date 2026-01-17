@@ -9,14 +9,14 @@ const translations = {
     nav_contact: "Kontakt",
     nav_funding: "Støt os",
     nav_newsletter: "Nyhedsbrev",
-    
+
     // Hero
     hero_subtitle: "Tværfagligt Innovationsnetværk mod Prostatakræft",
     hero_title: "En ny forståelse af <span>kræft</span>",
     hero_description: "Vi udfordrer den etablerede teori om kræft. Vores forskning viser, at kræft ikke blot skyldes tilfældige genmutationer – det er et sammenbrud i kroppens naturlige reparationssystem.",
     hero_btn_learn: "Læs mere",
     hero_btn_support: "Bliv støtte",
-    
+
     // Simple Explanation Section
     simple_title: "Kræft på en ny måde",
     simple_card1_title: "Den gamle teori",
@@ -25,7 +25,7 @@ const translations = {
     simple_card2_text: "Kræft opstår, når vævsmiljøet omkring cellerne nedbrydes. Cellerne mister deres 'vejledning' og ved ikke længere, hvornår de skal stoppe med at dele sig.",
     simple_card3_title: "Hvad det betyder",
     simple_card3_text: "I stedet for kun at angribe kræftcellerne, bør vi også fokusere på at genoprette det sunde vævsmiljø – det kan være nøglen til bedre behandling og forebyggelse.",
-    
+
     // Dive Deeper Section
     dive_title: "Dyk dybere ned i videnskaben",
     dive_item1_title: "Den Somatiske Mutationsteori (SMT) og dens begrænsninger",
@@ -38,14 +38,16 @@ const translations = {
     dive_item4_text: "Talrige studier viser, at kræftceller kan normaliseres, når de placeres i et sundt vævsmiljø. Omvendt kan normale celler udvikle maligne egenskaber i et nedbrudt miljø – uden genetiske ændringer. Dette bekræfter, at det er konteksten, ikke genomet, der bestemmer cellernes opførsel.",
     dive_item5_title: "Implikationer for behandling",
     dive_item5_text: "RCA-rammeværket peger mod en ny terapeutisk tilgang: regenerativ onkologi. I stedet for kun at dræbe kræftceller med kemoterapi eller stråling, bør vi også genoprette vævsmiljøets integritet. Dette kunne inkludere mekanoterapeutiske interventioner, modulation af fibroblastfunktion, og strategier til at understøtte den naturlige differentiering.",
-    
+    dive_research_btn: "Se nye muligheder for forskningsprojekter",
+    dive_publications_label: "Læs vores publicerede forskningsartikler:",
+
     // Newsletter Section
     newsletter_title: "Bliv en del af forandringen",
     newsletter_text: "Tilmeld dig vores nyhedsbrev og modtag opdateringer om vores forskning, nye publikationer og muligheder for at støtte arbejdet.",
     newsletter_placeholder: "Din e-mail adresse",
     newsletter_btn: "Tilmeld",
     newsletter_success: "Tak for din tilmelding! Du vil snart modtage en bekræftelse.",
-    
+
     // Contact Page
     contact_title: "Kontakt os",
     contact_intro: "Har du spørgsmål til projektet, ønsker du at deltage i arbejdet, eller vil du booke et møde? Kontakt os gerne.",
@@ -59,8 +61,9 @@ const translations = {
     contact_form_subject: "Emne",
     contact_form_message: "Din besked",
     contact_form_btn: "Send besked",
+    contact_form_title: "Send os en besked",
     contact_form_success: "Tak for din henvendelse! Vi vender tilbage snarest.",
-    
+
     // Board Members
     board_chairman: "Formand",
     board_vice: "Næstformand og Webadministrator",
@@ -69,7 +72,7 @@ const translations = {
     board_deputy: "Suppleant",
     board_auditor: "Revisor",
     board_deputy_auditor: "Revisorsuppleant",
-    
+
     // Funding Page
     funding_title: "Støt vores forskning",
     funding_intro: "TINAP er en non-profit forening, der arbejder for at fremme ny forståelse af kræftens oprindelse. Vi søger støtte fra fonde, institutioner og private til at fortsætte og udvide vores arbejde.",
@@ -87,20 +90,26 @@ const translations = {
     funding_letter_signature: "TINAP Bestyrelsen",
     funding_highlight: "\"Vi har ikke spildt tiden med at finde komponenterne, men vi har måske fejlet ved at tro, at vi kunne kontrollere dem som tandhjul. Virkeligheden er, at vi forsøger at styre en proces, der er klogere end os selv.\"",
     funding_contact_title: "Kontakt os for at diskutere støttemuligheder",
-    
+
+    // Call to Action Section
+    cta_title: "Hjælp os med at udbrede budskabet",
+    cta_text: "Vi søger kontakt til forskningsinstitutioner, fonde og enkeltpersoner, der vil støtte en ny tilgang til kræftforskning.",
+    cta_btn_support: "Støt vores forskning",
+    cta_btn_contact: "Kontakt os",
+
     // Footer
     footer_about: "Om TINAP",
     footer_about_text: "TINAP er en tværfaglig forening dedikeret til at udfordre etablerede teorier om kræftens oprindelse og fremme ny forskning.",
     footer_links: "Links",
     footer_contact: "Kontakt",
     footer_copyright: "© 2026 TINAP. Alle rettigheder forbeholdt.",
-    
+
     // Language Names
     lang_da: "Dansk",
     lang_en: "English",
     lang_zh: "中文"
   },
-  
+
   en: {
     // Navigation
     nav_home: "Home",
@@ -108,14 +117,14 @@ const translations = {
     nav_contact: "Contact",
     nav_funding: "Support Us",
     nav_newsletter: "Newsletter",
-    
+
     // Hero
     hero_subtitle: "Transdisciplinary Innovation Network Against Prostate Cancer",
     hero_title: "A new understanding of <span>cancer</span>",
     hero_description: "We challenge the established theory of cancer. Our research shows that cancer is not merely caused by random genetic mutations – it's a breakdown in the body's natural repair system.",
     hero_btn_learn: "Learn more",
     hero_btn_support: "Become a supporter",
-    
+
     // Simple Explanation Section
     simple_title: "Cancer: A New Perspective",
     simple_card1_title: "The Old Theory",
@@ -124,7 +133,7 @@ const translations = {
     simple_card2_text: "Cancer occurs when the tissue environment surrounding cells breaks down. The cells lose their 'guidance' and no longer know when to stop dividing.",
     simple_card3_title: "What It Means",
     simple_card3_text: "Instead of only attacking cancer cells, we should also focus on restoring the healthy tissue environment – this could be the key to better treatment and prevention.",
-    
+
     // Dive Deeper Section
     dive_title: "Dive Deeper into the Science",
     dive_item1_title: "The Somatic Mutation Theory (SMT) and Its Limitations",
@@ -137,14 +146,16 @@ const translations = {
     dive_item4_text: "Numerous studies show that cancer cells can normalize when placed in a healthy tissue environment. Conversely, normal cells can develop malignant properties in a degraded environment – without genetic changes. This confirms that it's the context, not the genome, that determines cell behavior.",
     dive_item5_title: "Implications for Treatment",
     dive_item5_text: "The RCA framework points toward a new therapeutic approach: regenerative oncology. Instead of only killing cancer cells with chemotherapy or radiation, we should also restore tissue environment integrity. This could include mechanotherapeutic interventions, modulation of fibroblast function, and strategies to support natural differentiation.",
-    
+    dive_research_btn: "See new research project opportunities",
+    dive_publications_label: "Read our published research articles:",
+
     // Newsletter Section
     newsletter_title: "Be Part of the Change",
     newsletter_text: "Sign up for our newsletter and receive updates about our research, new publications, and opportunities to support our work.",
     newsletter_placeholder: "Your email address",
     newsletter_btn: "Subscribe",
     newsletter_success: "Thank you for subscribing! You will soon receive a confirmation.",
-    
+
     // Contact Page
     contact_title: "Contact Us",
     contact_intro: "Do you have questions about the project, want to participate in the work, or would you like to book a meeting? Feel free to contact us.",
@@ -158,8 +169,9 @@ const translations = {
     contact_form_subject: "Subject",
     contact_form_message: "Your message",
     contact_form_btn: "Send message",
+    contact_form_title: "Send us a message",
     contact_form_success: "Thank you for your inquiry! We will get back to you soon.",
-    
+
     // Board Members
     board_chairman: "Chairman",
     board_vice: "Vice Chairman and Website Administrator",
@@ -168,7 +180,7 @@ const translations = {
     board_deputy: "Deputy",
     board_auditor: "Auditor",
     board_deputy_auditor: "Deputy Auditor",
-    
+
     // Funding Page
     funding_title: "Support Our Research",
     funding_intro: "TINAP is a non-profit association working to promote new understanding of the origins of cancer. We seek support from foundations, institutions, and individuals to continue and expand our work.",
@@ -186,20 +198,26 @@ const translations = {
     funding_letter_signature: "The TINAP Board",
     funding_highlight: "\"We have not wasted time finding the components, but we may have failed by believing we could control them like cogwheels. The reality is that we are trying to steer a process that is wiser than ourselves.\"",
     funding_contact_title: "Contact us to discuss support options",
-    
+
+    // Call to Action Section
+    cta_title: "Help us spread the message",
+    cta_text: "We are seeking contact with research institutions, foundations, and individuals who want to support a new approach to cancer research.",
+    cta_btn_support: "Support our research",
+    cta_btn_contact: "Contact us",
+
     // Footer
     footer_about: "About TINAP",
     footer_about_text: "TINAP is a transdisciplinary association dedicated to challenging established theories about the origin of cancer and promoting new research.",
     footer_links: "Links",
     footer_contact: "Contact",
     footer_copyright: "© 2026 TINAP. All rights reserved.",
-    
+
     // Language Names
     lang_da: "Dansk",
     lang_en: "English",
     lang_zh: "中文"
   },
-  
+
   zh: {
     // Navigation
     nav_home: "首页",
@@ -207,23 +225,23 @@ const translations = {
     nav_contact: "联系我们",
     nav_funding: "支持我们",
     nav_newsletter: "订阅通讯",
-    
+
     // Hero
     hero_subtitle: "跨学科前列腺癌创新网络",
     hero_title: "对<span>癌症</span>的新认识",
     hero_description: "我们挑战癌症的传统理论。我们的研究表明，癌症不仅仅是由随机基因突变引起的——它是身体自然修复系统的崩溃。",
     hero_btn_learn: "了解更多",
     hero_btn_support: "成为支持者",
-    
+
     // Simple Explanation Section
     simple_title: "癌症：新视角",
     simple_card1_title: "传统理论",
     simple_card1_text: "传统观点认为，癌症是由随着时间积累的随机基因错误引起的。但从数学角度来看，这需要数千年——而不是人的一生。",
     simple_card2_title: "我们的发现",
-    simple_card2_text: "当细胞周围的组织环境遭到破坏时，癌症就会发生。细胞失去了"指导"，不再知道何时停止分裂。",
+    simple_card2_text: "当细胞周围的组织环境遭到破坏时，癌症就会发生。细胞失去了\"指导\"，不再知道何时停止分裂。",
     simple_card3_title: "这意味着什么",
     simple_card3_text: "我们不应该仅仅攻击癌细胞，还应该专注于恢复健康的组织环境——这可能是更好的治疗和预防的关键。",
-    
+
     // Dive Deeper Section
     dive_title: "深入了解科学",
     dive_item1_title: "体细胞突变理论（SMT）及其局限性",
@@ -236,14 +254,16 @@ const translations = {
     dive_item4_text: "大量研究表明，当癌细胞被放置在健康的组织环境中时可以正常化。相反，正常细胞可以在退化的环境中发展出恶性特征——而无需基因改变。这证实了决定细胞行为的是环境，而不是基因组。",
     dive_item5_title: "治疗启示",
     dive_item5_text: "RCA框架指向一种新的治疗方法：再生肿瘤学。我们不应该仅仅用化疗或放疗杀死癌细胞，还应该恢复组织环境的完整性。这可能包括机械治疗干预、调节成纤维细胞功能以及支持自然分化的策略。",
-    
+    dive_research_btn: "查看新的研究项目机会",
+    dive_publications_label: "阅读我们发表的研究论文:",
+
     // Newsletter Section
     newsletter_title: "成为改变的一部分",
     newsletter_text: "订阅我们的通讯，接收有关我们研究、新出版物和支持我们工作机会的更新。",
     newsletter_placeholder: "您的电子邮件地址",
     newsletter_btn: "订阅",
     newsletter_success: "感谢您的订阅！您很快会收到确认邮件。",
-    
+
     // Contact Page
     contact_title: "联系我们",
     contact_intro: "您对项目有疑问，想参与工作，或想预约会议吗？请随时与我们联系。",
@@ -257,8 +277,9 @@ const translations = {
     contact_form_subject: "主题",
     contact_form_message: "您的留言",
     contact_form_btn: "发送消息",
+    contact_form_title: "给我们发送消息",
     contact_form_success: "感谢您的咨询！我们会尽快回复您。",
-    
+
     // Board Members
     board_chairman: "主席",
     board_vice: "副主席兼网站管理员",
@@ -267,7 +288,7 @@ const translations = {
     board_deputy: "副手",
     board_auditor: "审计员",
     board_deputy_auditor: "副审计员",
-    
+
     // Funding Page
     funding_title: "支持我们的研究",
     funding_intro: "TINAP是一个致力于促进对癌症起源新认识的非营利协会。我们寻求基金会、机构和个人的支持，以继续和扩大我们的工作。",
@@ -285,14 +306,20 @@ const translations = {
     funding_letter_signature: "TINAP董事会",
     funding_highlight: "\"我们没有浪费时间寻找组件，但我们可能错在相信我们可以像控制齿轮一样控制它们。现实是，我们试图驾驭一个比我们自己更聪明的过程。\"",
     funding_contact_title: "联系我们讨论支持方案",
-    
+
+    // Call to Action Section
+    cta_title: "帮助我们传播信息",
+    cta_text: "我们正在寻求与研究机构、基金会和希望支持癌症研究新方法的个人建立联系。",
+    cta_btn_support: "支持我们的研究",
+    cta_btn_contact: "联系我们",
+
     // Footer
     footer_about: "关于TINAP",
     footer_about_text: "TINAP是一个跨学科协会，致力于挑战关于癌症起源的既定理论并促进新研究。",
     footer_links: "链接",
     footer_contact: "联系方式",
     footer_copyright: "© 2026 TINAP。保留所有权利。",
-    
+
     // Language Names
     lang_da: "Dansk",
     lang_en: "English",

@@ -96,7 +96,7 @@
                         <div class="contact-info-icon">✉️</div>
                         <div class="contact-info-text">
                             <h4 data-i18n="contact_email">E-mail</h4>
-                            <p><a href="mailto:kontakt@tinap.org">kontakt@tinap.org</a></p>
+                            <p><a href="mailto:contact@tinap.org">contact@tinap.org</a></p>
                         </div>
                     </div>
 
@@ -147,26 +147,28 @@
                 <!-- Contact Form -->
                 <div class="reveal">
                     <div class="card">
-                        <h3 style="margin-bottom: var(--spacing-md);">Send os en besked</h3>
-                        <form class="contact-form">
+                        <h3 style="margin-bottom: var(--spacing-md);" data-i18n="contact_form_title">Send os en besked
+                        </h3>
+                        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact">
                             <div class="form-group">
                                 <label class="form-label" data-i18n="contact_form_name">Dit navn</label>
-                                <input type="text" class="form-input" required>
+                                <input type="text" name="name" class="form-input" required>
                             </div>
 
                             <div class="form-group">
                                 <label class="form-label" data-i18n="contact_form_email">Din e-mail</label>
-                                <input type="email" class="form-input" required>
+                                <input type="email" name="email" class="form-input" required>
                             </div>
 
                             <div class="form-group">
                                 <label class="form-label" data-i18n="contact_form_subject">Emne</label>
-                                <input type="text" class="form-input" required>
+                                <input type="text" name="subject" class="form-input" required>
                             </div>
 
                             <div class="form-group">
                                 <label class="form-label" data-i18n="contact_form_message">Din besked</label>
-                                <textarea class="form-textarea" required></textarea>
+                                <textarea name="message" class="form-textarea" required></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary" style="width: 100%;"
@@ -234,7 +236,7 @@
                         <li>Skovbovænget 141</li>
                         <li>2750 Ballerup</li>
                         <li>+45 42 66 62 57</li>
-                        <li><a href="mailto:kontakt@tinap.org">kontakt@tinap.org</a></li>
+                        <li><a href="mailto:contact@tinap.org">contact@tinap.org</a></li>
                     </ul>
                 </div>
             </div>
