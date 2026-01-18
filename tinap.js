@@ -91,6 +91,30 @@ const translations = {
         funding_letter_signature: "TINAP Bestyrelsen",
         funding_highlight: "\"Vi har ikke spildt tiden med at finde komponenterne, men vi har måske fejlet ved at tro, at vi kunne kontrollere dem som tandhjul. Virkeligheden er, at vi forsøger at styre en proces, der er klogere end os selv.\"",
         funding_contact_title: "Kontakt os for at diskutere støttemuligheder",
+        funding_contact_text: "Vi vil gerne høre fra dig og fortælle mere om vores arbejde og hvordan din støtte kan gøre en forskel.",
+        funding_contact_btn: "Kontakt os",
+
+        // Funding - Research Value Cards
+        funding_research_title: "Banebrydende forskning",
+        funding_research_text: "Vores RCA-rammeværk udfordrer 50 års dominerende teori og åbner for nye behandlingsmuligheder baseret på regenerativ medicin.",
+        funding_intl_title: "International anerkendelse",
+        funding_intl_text: "Vores publikationer på bioRxiv og Zenodo har allerede tiltrukket opmærksomhed fra forskere verden over.",
+        funding_collab_title: "Tværfagligt samarbejde",
+        funding_collab_text: "Vi samler eksperter fra biologi, medicin, fysik og kompleksitetsteori for at forstå kræft som et systemfænomen.",
+
+        // Funding - How to Support Section
+        funding_howto_title: "Sådan kan du støtte",
+        funding_financial_title: "Økonomisk støtte",
+        funding_financial_text: "Donationer af enhver størrelse hjælper os med at fortsætte vores forskning og formidling.",
+        funding_financial_bank: "Bankkonto:",
+        funding_financial_bank_info: "Kontakt os for bankoplysninger",
+        funding_share_title: "Del vores budskab",
+        funding_share_text: "Hjælp os med at nå ud til flere ved at dele vores forskning med dit netværk, forskningsinstitutioner og medier.",
+        funding_share_btn1: "Del Part I",
+        funding_share_btn2: "Del Part II",
+        funding_inst_title: "Institutionelt samarbejde",
+        funding_inst_text: "Er du tilknyttet en forskningsinstitution, universitet eller fond? Vi søger samarbejdspartnere til at validere vores hypoteser.",
+        funding_inst_btn: "Kontakt os",
 
         // Call to Action Section
         cta_title: "Hjælp os med at udbrede budskabet",
@@ -199,6 +223,30 @@ const translations = {
         funding_letter_signature: "The TINAP Board",
         funding_highlight: "\"We have not wasted time finding the components, but we may have failed by believing we could control them like cogwheels. The reality is that we are trying to steer a process that is wiser than ourselves.\"",
         funding_contact_title: "Contact us to discuss support options",
+        funding_contact_text: "We would like to hear from you and tell you more about our work and how your support can make a difference.",
+        funding_contact_btn: "Contact us",
+
+        // Funding - Research Value Cards
+        funding_research_title: "Groundbreaking Research",
+        funding_research_text: "Our RCA framework challenges 50 years of dominant theory and opens new treatment possibilities based on regenerative medicine.",
+        funding_intl_title: "International Recognition",
+        funding_intl_text: "Our publications on bioRxiv and Zenodo have already attracted attention from researchers worldwide.",
+        funding_collab_title: "Transdisciplinary Collaboration",
+        funding_collab_text: "We bring together experts from biology, medicine, physics, and complexity theory to understand cancer as a systemic phenomenon.",
+
+        // Funding - How to Support Section
+        funding_howto_title: "How You Can Support Us",
+        funding_financial_title: "Financial Support",
+        funding_financial_text: "Donations of any size help us continue our research and outreach.",
+        funding_financial_bank: "Bank account:",
+        funding_financial_bank_info: "Contact us for bank details",
+        funding_share_title: "Share Our Message",
+        funding_share_text: "Help us reach more people by sharing our research with your network, research institutions, and media.",
+        funding_share_btn1: "Share Part I",
+        funding_share_btn2: "Share Part II",
+        funding_inst_title: "Institutional Collaboration",
+        funding_inst_text: "Are you affiliated with a research institution, university, or foundation? We are looking for partners to validate our hypotheses.",
+        funding_inst_btn: "Contact us",
 
         // Call to Action Section
         cta_title: "Help us spread the message",
@@ -307,6 +355,30 @@ const translations = {
         funding_letter_signature: "TINAP董事会",
         funding_highlight: "\"我们没有浪费时间寻找组件，但我们可能错在相信我们可以像控制齿轮一样控制它们。现实是，我们试图驾驭一个比我们自己更聪明的过程。\"",
         funding_contact_title: "联系我们讨论支持方案",
+        funding_contact_text: "我们很乐意听取您的意见，并向您介绍更多关于我们工作的信息，以及您的支持如何产生影响。",
+        funding_contact_btn: "联系我们",
+
+        // Funding - Research Value Cards
+        funding_research_title: "开创性研究",
+        funding_research_text: "我们的RCA框架挑战了50年的主导理论，开辟了基于再生医学的新治疗可能性。",
+        funding_intl_title: "国际认可",
+        funding_intl_text: "我们在bioRxiv和Zenodo上的出版物已经引起了世界各地研究人员的关注。",
+        funding_collab_title: "跨学科合作",
+        funding_collab_text: "我们汇集了生物学、医学、物理学和复杂性理论的专家，将癌症理解为一种系统性现象。",
+
+        // Funding - How to Support Section
+        funding_howto_title: "如何支持我们",
+        funding_financial_title: "财务支持",
+        funding_financial_text: "任何规模的捐赠都有助于我们继续研究和推广工作。",
+        funding_financial_bank: "银行账户：",
+        funding_financial_bank_info: "联系我们获取银行信息",
+        funding_share_title: "分享我们的信息",
+        funding_share_text: "通过与您的网络、研究机构和媒体分享我们的研究，帮助我们接触更多人。",
+        funding_share_btn1: "分享第一部分",
+        funding_share_btn2: "分享第二部分",
+        funding_inst_title: "机构合作",
+        funding_inst_text: "您是否隶属于研究机构、大学或基金会？我们正在寻找合作伙伴来验证我们的假设。",
+        funding_inst_btn: "联系我们",
 
         // Call to Action Section
         cta_title: "帮助我们传播信息",
