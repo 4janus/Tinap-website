@@ -67,7 +67,7 @@ const translations = {
     // Board Members
     board_chairman: "Formand",
     board_vice: "Næstformand og Webadministrator",
-    board_secretary: "Sekretær, Kasserer og Stedfortrædende Webadministrator",
+    board_it_web: "It og Web",
     board_member: "Bestyrelsesmedlem",
     board_deputy: "Suppleant",
     board_auditor: "Revisor",
@@ -175,7 +175,7 @@ const translations = {
     // Board Members
     board_chairman: "Chairman",
     board_vice: "Vice Chairman and Website Administrator",
-    board_secretary: "Secretary, Treasurer, and Deputy Website Administrator",
+    board_it_web: "IT and Web",
     board_member: "Board Member",
     board_deputy: "Deputy",
     board_auditor: "Auditor",
@@ -283,7 +283,7 @@ const translations = {
     // Board Members
     board_chairman: "主席",
     board_vice: "副主席兼网站管理员",
-    board_secretary: "秘书、财务主管兼副网站管理员",
+    board_it_web: "IT与网络",
     board_member: "董事会成员",
     board_deputy: "副手",
     board_auditor: "审计员",
